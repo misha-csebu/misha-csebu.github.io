@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Research</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+ 
+  <!-- <link href="styles/style.css?v=2011-04-25" rel="stylesheet" type="text/css" /> -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>   
+<style>
+
+</style>
+</head>
+
+<body>
+
+<div class="container" style="border:1px solid #3FAEA8; padding:0!important;">
+
+	<nav class="navbar navbar-default" style="background-color:#3FAEA8;margin-bottom:10px;">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="https://misha-csebu.github.io/index.html" style="color:#FFF;">M.I.S.H.A</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">      
+		  <ul class="nav navbar-nav navbar-right">        
+				<li><a href="https://misha-csebu.github.io/index.html" style="color:#FFF;">Home</a></li> 
+				<li><a href="https://misha-csebu.github.io/about.html" style="color:#FFF;">About</a></li>
+				<li><a href="https://misha-csebu.github.io/people.html" style="color:#FFF;">People</a></li>			
+				<li class="active"><a href="https://misha-csebu.github.io/research.html" style="color:#000;">Research <span class="sr-only">(current)</span></a></li>						
+				<li><a href="https://misha-csebu.github.io/gallery.html" style="color:#FFF;">Gallery</a></li>
+				<li><a href="https://misha-csebu.github.io/advisory_board.html" style="color:#FFF;">Advisory Board</a></li>
+				<li><a href="https://misha-csebu.github.io/courses.html" style="color:#FFF;">Courses</a></li>
+				<li><a href="https://misha-csebu.github.io/resources.html" style="color:#FFF;">Resources</a></li>
+				<li><a href="https://misha-csebu.github.io/contact_us.html" style="color:#FFF;">Contact Us</a></li>
+				<li><a href="https://scholar.google.co.in/citations?hl=en&user=tUb_Em0AAAAJ" style="color:#FFF;">Publications</a></li>        
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<div class="col-lg-12" style="">
+	<div class="col-lg-9" style="padding:0px;">
+		<a href="https://dg62771.github.io/logo2.png">
+		<img class="img-responsive" src="https://dg62771.github.io/logo2.png">
+		</a>
+		
+		<div class="col-lg-12" style="padding:0px!important; padding-top:10px!important; margin-left:0px!important;">
+			<div class="col-lg-12" style="background-color:#5DBCD2">
+				<h4 align="center">Unusual activity detection for monitoring applications</h4>
+			</div>
+		</div>		
+		<div class="col-lg-12" style="padding:0px!important; padding-top:10px!important; margin-left:0px!important;">
+			<div class="col-lg-12" style="background-color:#5DBCD2">
+				<h4 align="center">Abstract</h4>
+			</div>
+			<div class="col-lg-12" style="border:1px solid #3FAEA8; padding-top:5px;">
+				<p align="justify">Unusual activity detection is the process of identifying and detecting the activities which are different from actual or well-defined set of activities and attract human attention. We have developed an application to automatically detect unusual activities. Generally, humans follow a sequence in their actions. Based upon these sequences of activities, we will classify them into the usual and unusual activities. A lot of human resources are required to monitor the vast number of surveillance cameras installed in public and private places. So, it is highly recommended to have an automatic algorithm which can detect unusual activities and trigger action.</p>
+			</div>
+		</div>
+		<div class="col-lg-12" style="padding:0px!important; padding-top:10px!important; margin-left:0px!important;">
+			<div class="col-lg-12" style="background-color:#5DBCD2">
+				<h4 align="center">Methodology</h4>
+			</div>
+			<div class="col-lg-12" style="border:1px solid #3FAEA8; padding-top:5px;">
+				<p align="justify">Our work on unusual activity detection is based on four steps leading to detection of unusual activity or anomaly in everyday activities of people. The four detection steps are,</p>
+				<p align="justify">1. Human detection using deep CNN object detection model trained on popular datasets such as INRIA person dataset and Caltech pedestrian dataset containing videos taken in indoor and outdoor environments.</p>
+				<p align="justify">2. Deep neural network based cascaded regression for human anatomical keypoints detection and pose estimation using MPII human multi-person dataset and the COCO 2016 keypoints challenge dataset.</p>
+				<p align="justify">3. Activity classification based on distance between keypoints detected by pose estimation using ensemble of different video datasets such as HMDB, ASLAN for activity recognition</p>
+				<p align="justify">4. Unusual activity detection based on both detection of individual activity or classification of sequence of activities using Recurrent Neural Network LSTM.</p>				
+			</div>
+		</div>
+		<div class="col-lg-12" style="padding:0px!important; padding-top:10px!important; margin-left:0px!important;">
+			<div class="col-lg-12" style="background-color:#5DBCD2">
+				<h4 align="center">Results</h4>
+			</div>
+			<div class="col-lg-12" style="border:1px solid #3FAEA8; padding-top:5px;">
+				<p align="justify">The preliminary experimental results for unusual human activity detection model using LSTM recurrent neural network are described below:</p>
+				<img src="https://misha-csebu.github.io/extended_research.png" class="img-rounded" alt="Cinque Terre" width="100%" height="100%">
+			</div>
+		</div>
+		<div class="col-lg-12" style="padding:0px!important; padding-top:10px!important; margin-left:0px!important;">
+			<div class="col-lg-12" style="background-color:#5DBCD2">
+				<h4 align="center">Applications</h4>
+			</div>
+			<div class="col-lg-12" style="border:1px solid #3FAEA8; padding-top:5px;">
+				<p align="justify">Visual Surveillance through Content Based Retrieval</p>
+				<p align="justify">Security related applications such as Defence, Military, checking in the airports</p>
+				<p align="justify">Home-based rehabilitation</p>
+				<p align="justify">Assisting the sick and disabled patients for Ambient Assisted Living environment</p>
+				<p align="justify">Remote monitoring of elderly persons, jail inmates, patients in hospitals, care-centres for differently abled people</p>
+			</div>
+		</div>
+		<div class="col-lg-12" style="padding:0px!important; padding-top:10px!important; margin-left:0px!important;">
+			<div class="col-lg-12" style="background-color:#5DBCD2">
+				<h4 align="center">Sample videos</h4>
+			</div>
+			<div class="col-lg-12" style="border:1px solid #3FAEA8; padding-top:5px;">
+				<p align="justify"><a href="https://misha-csebu.github.io/activity1.mp4" target="_blank">Link1</a></p>		
+				<p align="justify"><a href="https://misha-csebu.github.io/activity2.mp4" target="_blank">Link2</a></p>		
+				<p align="justify"><a href="https://misha-csebu.github.io/activity3.mp4" target="_blank">Link3</a></p>		
+				<p align="justify"><a href="https://misha-csebu.github.io/activity4.mp4" target="_blank">Link4</a></p>		
+			</div>
+		</div>
+		<div class="col-lg-12" style="padding:0px!important; padding-top:10px!important; margin-left:0px!important;">
+			<div class="col-lg-12" style="background-color:#5DBCD2">
+				<h4 align="center">References</h4>
+			</div>
+			<div class="col-lg-12" style="border:1px solid #3FAEA8; padding-top:5px;">
+				<p align="justify">1. R. Helaoui, M. Niepert, and H. Stuckenschmidt, “Recognizing interleaved and concurrent activities: A statisticalrelational approach,” in Pervasive Computing and Communications (PerCom), 2011 IEEE International Conference on, pp. 1–9, IEEE, 2011.</p>		
+				<p align="justify">2. Aditi Kapoor, K. K. Biswas, M. Hanmandlu, “Unusual Human Activity Detection using Markov Logic Networks, “ presented at Int. Conf. on  Identity, Security and Behavior Analysis (ISBA 2017), New Delhi, Feb 24 – 26 , 2017.</p>		
+				<p align="justify">3. Zhong, Hua, Jianbo Shi, and Mirkó Visontai. "Detecting unusual activity in video." Computer Vision and Pattern Recognition, 2004. CVPR 2004. Proceedings of the 2004 IEEE Computer Society Conference on. Vol. 2. IEEE, 2004.</p>		
+				<p align="justify">4. Zelnik-Manor, Lihi, and Michal Irani. "Event-based analysis of video." Computer Vision and Pattern Recognition, 2001. CVPR 2001. Proceedings of the 2001 IEEE Computer Society Conference on. Vol. 2. IEEE, 2001. </p>		
+				<p align="justify">5. Laptev, Ivan, et al. "Learning realistic human actions from movies." Computer Vision and Pattern Recognition, 2008. CVPR 2008. IEEE Conference on. IEEE, 2008.</p>		
+				<p align="justify">6. Chaquet, Jose M., Enrique J. Carmona, and Antonio Fernández-Caballero. "A survey of video datasets for human action and activity recognition." Computer Vision and Image Understanding 117.6 (2013): 633-659.</p>		
+			</div>
+		</div>		
+	</div>
+	<div class="col-lg-3" style="padding:0px!important;">
+		<a class="twitter-timeline" data-width="450" data-height="550" href="https://twitter.com/CSE_Bennett?ref_src=twsrc%5Etfw">Tweets by CSE_Bennett</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+	</div>
+
+	<div class="col-lg-12" style="background-color: #444; padding:0!important;">
+				<div class="col-lg-3" style="">							
+					<ul style="list-style-type:none">			
+
+						<li style="margin: 10px 0;"><h4 style="color:#FFF;">About Us</h4></li>
+						
+						<li style="margin: 10px 0;"><a href="https://misha-csebu.github.io/about.html" style="color:#FFF;">Vision</a></li>
+
+						<li style="margin: 10px 0;"><a href="https://misha-csebu.github.io/about.html" style="color:#FFF;">Mission</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3" style="">	
+					<ul style="list-style-type:none">
+					
+						<li style="margin: 10px 0;"><h4 style="color:#FFF;">Community</h4></li>
+						
+						<li style="margin: 10px 0;"><a href="https://misha-csebu.github.io/people.html" style="color:#FFF;">Faculty</a></li>
+
+						<li style="margin: 10px 0;"><a href="https://misha-csebu.github.io/people.html" style="color:#FFF;">Post Doc</a></li>
+						
+						<li style="margin: 10px 0;"><a href="https://misha-csebu.github.io/people.html" style="color:#FFF;">Students</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3" style="">	
+					<ul style="list-style-type:none">
+					
+						<li style="margin: 10px 0;"><h4 style="color:#FFF;">Research</h4></li>
+						
+						<li style="margin: 10px 0;"><a href="https://misha-csebu.github.io/research.html" style="color:#FFF;">Projects</a></li>
+
+						<li style="margin: 10px 0;"><a href="https://scholar.google.co.in/citations?hl=en&user=tUb_Em0AAAAJ" style="color:#FFF;">Publications</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3" style="">	
+					<ul style="list-style-type:none">
+						
+						<li style="margin: 10px 0;"><h4 style="color:#FFF;">Contact Us</h4></li>
+						
+						<li style="margin: 10px 0;"><a href="https://misha-csebu.github.io/contact_us.html" style="color:#FFF;">Contact Us</a></li>
+
+						<li style="margin: 10px 0;"><a href="http://www.bennett.edu.in/reach-us" style="color:#FFF;">How to reach us</a></li>
+						
+					</ul>
+				</div>
+		</div>
+
+	<div class="col-lg-12" style="background-color:#5DBCD2;">
+		<div class="col-lg-10" style="padding-top:10px;">
+			<p style="">Copyright © 2017. Bennett University, Greater Noida</p>
+		</div>
+		<div class="col-lg-2" style="padding-top:10px;">
+			<a href="https://www.facebook.com/Department-of-Computer-Science-Bennett-University-1867727736888382/" target="_blank"><img src="http://algorithmguru.com/content/images/facebook.png" class="img-rounded" alt="Cinque Terre" width="25px" height="25px"></a>
+			<a href="https://twitter.com/CSE_Bennett?ref_src=twsrc%5Etfw&ref_url=file%3A%2F%2F%2FE%3A%2FM.I.S.H.A%2Findex.html" target="_blank"><img src="http://algorithmguru.com/content/images/twitter.png" class="img-rounded" alt="Cinque Terre" width="25px" height="25px"></a>
+			<a href="https://www.linkedin.com/in/elon-musk-cse-bu-a96780147/" target="_blank"><img src="http://algorithmguru.com/content/images/linkedin.png" class="img-rounded" alt="Cinque Terre" width="25px" height="25px"></a>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
