@@ -1,5 +1,5 @@
 body:not(.template-slider) #Header_wrapper {
-	background-image: url(http://be.beantownthemes.com/html/content/meeting/images/home_meeting_subheader4.jpg)
+	
 }
 @media only screen and (min-width: 1240px) {
 	body:not(.header-simple) #Top_bar #menu {

@@ -1,10 +1,3 @@
-/**
- * Parallax 
- * 
- * Translate3d 
- * 
- * 1.0 | Muffin Group
- */
 
 mfnSetup = {
     translate: null

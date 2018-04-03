@@ -1,5 +1,3 @@
-//	Animations v1.4, Copyright 2014, Joe Mottershaw, https://github.com/joemottershaw/
-//	==================================================================================
 
 	// Animate
 		function animateElement() {
