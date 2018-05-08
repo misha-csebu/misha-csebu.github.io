@@ -2,7 +2,6 @@ var result = [];
 
 $(window).keydown(function(event){
 	var a = event.keyCode;
-	console.log(a);
 	result.push(a);
 	print();
 	
